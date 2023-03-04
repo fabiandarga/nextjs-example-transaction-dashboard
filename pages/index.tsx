@@ -1,10 +1,9 @@
 import React from 'react';
-import styles from './index.module.scss';
 
 function HomePage() {
     return (
         <div>
-            <p className={styles.paragraph}>Welcome to Next.js!</p>
+            <p>Welcome to your Bunny Reporting Tool</p>
         </div>
     )
 }

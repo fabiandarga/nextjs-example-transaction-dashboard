@@ -1,0 +1,19 @@
+@use '../../style/theme.variables.scss';
+
+.pageTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    h2 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: theme.$color-font-dark;
+    }
+
+    p {
+        margin-top: theme.$space-xs;
+        font-weight: bold;
+        color: theme.$color-font-medium;
+    }
+}
