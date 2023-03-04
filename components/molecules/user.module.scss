@@ -1,0 +1,13 @@
+@use '../../style/theme.variables.scss';
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.userPicto {
+    width: 2rem;
+    height: 2rem;
+    background-color: #f6ca65;
+    color: theme.$color-font-light;
+}
