@@ -1,0 +1,10 @@
+$hover-color: red;
+
+.paragraph {
+    font-size: 16px;
+    text-align: center;
+}
+
+.paragraph:hover {
+    color: $hover-color;
+}
