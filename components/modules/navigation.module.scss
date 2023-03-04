@@ -1,0 +1,14 @@
+@use '../../style//theme.variables.scss';
+
+.navigation {
+    height: 5rem;
+    border-bottom: 2px solid theme.$color-border;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 theme.$space-lg;
+}
+
+.logo {
+    width: 100px;
+}
