@@ -3,8 +3,8 @@ import User from '../molecules/User';
 
 export default function Navigation() {
     return (
-        <nav className="navigation">
+        <div className="navigation">
             <User firstName='John' lastName='Doe' />
-        </nav>
+        </div>
     )
 }
