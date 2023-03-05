@@ -1,6 +1,6 @@
 import React from 'react';
+import Card from '../components/atoms/Card';
 import PageTitle from '../components/molecules/PageTitle';
-import styles from './index.module.scss';
 
 function Reports() {
     return (
@@ -8,6 +8,9 @@ function Reports() {
             <PageTitle title="Reports" subTitle="Easily generate a report of your transactions">
                 Test
             </PageTitle>
+            <Card>
+                Test
+            </Card>
         </div>
     )
 }
