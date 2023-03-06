@@ -2,7 +2,7 @@ import React from 'react';
 import { Report } from '../../api/reports-api';
 import Card from '../atoms/Card';
 import DataGrid from '../molecules/DataGrid';
-import style from './report-body.module.scss';
+import style from './reportBody.module.scss';
 
 type Option = { label: string, value: any };
 

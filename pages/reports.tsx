@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ReportBody from '../components/modules/ReportBody';
+import ReportFilterBar from '../components/modules/ReportFIlterBar';
 import PageTitle from '../components/molecules/PageTitle';
 import useReports from '../hooks/useReports';
 
@@ -12,7 +13,7 @@ function Reports() {
     return (
         <div>
             <PageTitle title="Reports" subTitle="Easily generate a report of your transactions">
-                Test
+                <ReportFilterBar />
             </PageTitle>
             {
                 !reports || reports.length === 0 ?
