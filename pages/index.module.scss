@@ -1,0 +1,12 @@
+@use '../style/theme.variables.scss';
+
+.welcomeMessage {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.icon {
+    font-size: 3rem;
+    color: theme.$color-font-medium;
+}
