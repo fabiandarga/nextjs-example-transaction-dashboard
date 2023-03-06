@@ -1,3 +1,4 @@
+import "../utils/icons/fontawesome";
 import Layout from '../components/layout/default'
 import '../style/app.scss';
 

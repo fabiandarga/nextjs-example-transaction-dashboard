@@ -1,0 +1,7 @@
+@use '../../style//theme.variables.scss';
+
+.filterBar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: theme.$space-md;
+}

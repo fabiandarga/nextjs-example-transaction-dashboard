@@ -1,0 +1,6 @@
+@use '../../style/theme.variables.scss';
+
+.card {
+    background-color: theme.$color-background-dark;
+    padding: theme.$space-md;
+}

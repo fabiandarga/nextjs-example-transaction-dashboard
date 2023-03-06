@@ -1,0 +1,9 @@
+@use '../../style//theme.variables.scss';
+
+.reportBody {
+
+    h3 {
+        font-weight: bold;
+        margin-bottom: theme.$space-lg;
+    }
+}

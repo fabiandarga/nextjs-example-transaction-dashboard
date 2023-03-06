@@ -1,0 +1,29 @@
+
+@use '../../style//theme.variables.scss';
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: theme.$space-md;
+
+    height: theme.$buttonHeight;
+    border-radius: 4px;
+    padding: 0 theme.$space-md;
+
+    cursor: pointer;
+
+    span {
+        white-space: nowrap;
+    }
+
+    &.primary {
+        color: #fff;
+        background-color: theme.$color-primary;
+    }
+
+    &.secondary {
+        color: #fff;
+        background-color: theme.$color-secondary;
+    }
+}
