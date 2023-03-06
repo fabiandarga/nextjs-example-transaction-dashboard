@@ -1,10 +1,10 @@
 @use '../../style/theme.variables.scss';
 
-.table {
+.dataGrid {
     --columns: 3;
 }
 
-.tableRow, .tableHead {
+.row, .head {
     display: grid;
     grid-template-columns: repeat(var(--columns), 1fr);
     grid-auto-rows: auto;
@@ -15,6 +15,6 @@
     }
 }
 
-.tableHead {
+.head {
     text-transform: uppercase;
 }

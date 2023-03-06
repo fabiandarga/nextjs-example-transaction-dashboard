@@ -1,19 +1,19 @@
 import React from 'react';
-import style from "./table.module.scss";
+import style from "./data-grid.module.scss";
 
 type RowData = { [key: string] : any };
 
 export default function DataGrid({ data, fields, header }: { data: RowData[], fields: string[], header: string[] }) {
     const variables = { '--columns': fields.length } as React.CSSProperties;
     return (
-        <div className={ style.table } style={variables}>
-            <div className={ style.tableHead }>
-                {header.map(title => <div>{title}</div>)}
+        <div className={ style.dataGrid } style={variables}>
+            <div className={ style.head }>
+                {header.map(title => <div key={title}>{title}</div>)}
             </div>
-            {data.map(row => {
+            {data.map((row, idx) => {
                 return (
-                    <div className={ style.tableRow }>
-                        { fields.map(col => (<div>{row[col]}</div>)) }
+                    <div key={idx} className={ style.row }>
+                        { fields.map(col => (<div key={row[col]}>{row[col]}</div>)) }
                     </div>
                 );
             })}
