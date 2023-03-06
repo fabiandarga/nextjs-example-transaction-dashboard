@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import reportsApi, { type Report } from "../api/reports-api";
+import reportsApi from "../api/report-api";
+import { Report } from "../types/entities";
 
 export default function useReports(from: string, to: string, projectId: string, gatewayId: string): Report[] {
     const [reports, setReports] = useState<Report[]>([]);
